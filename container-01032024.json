@@ -1,0 +1,1452 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2024-03-01 00:00:00",
+    "containerVersion": {
+        "path": "accounts/6203600046/containers/169991442/versions/27",
+        "accountId": "6203600046",
+        "containerId": "169991442",
+        "containerVersionId": "27",
+        "name": "Update purchase event",
+        "container": {
+            "path": "accounts/6203600046/containers/169991442",
+            "accountId": "6203600046",
+            "containerId": "169991442",
+            "name": "Kindergarten",
+            "publicId": "GTM-P6JFHRZ5",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1698852474593",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6203600046/containers/169991442/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-P6JFHRZ5"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "14",
+                "name": "GA - Init Consent",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1705948984394",
+                "firingTriggerId": [
+                    "2147479572"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "19",
+                "name": "GA4 - Pelcro Modal View",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "{{Event}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1705950058659",
+                "firingTriggerId": [
+                    "18"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "21",
+                "name": "GA4 - Pelcro UI Modal Event",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "{{Event}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1705951878114",
+                "firingTriggerId": [
+                    "20"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "37",
+                "name": "GA4 - Pelcro Update Address",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Updated address"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707308696756",
+                "firingTriggerId": [
+                    "36"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "39",
+                "name": "GA4 - Pelcro Cancel Subscription",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Canceled"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707308984646",
+                "firingTriggerId": [
+                    "38"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "41",
+                "name": "GA4 - Pelcro UnSuspended Subscription",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "UnSuspended"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707309124777",
+                "firingTriggerId": [
+                    "40"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "43",
+                "name": "GA4 - Pelcro Logged In",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Logged in"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707309295762",
+                "firingTriggerId": [
+                    "42"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "45",
+                "name": "GA4 - Pelcro Payment Method Created",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Created payment card"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707309502900",
+                "firingTriggerId": [
+                    "44"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "47",
+                "name": "GA4 - Pelcro Payment Method Deleted",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Delete payment card"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707309581147",
+                "firingTriggerId": [
+                    "46"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "49",
+                "name": "GA4 - Pelcro Payment Method Updated",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Updated payment card"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707309716363",
+                "firingTriggerId": [
+                    "48"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "51",
+                "name": "GA4 - Pelcro Registered",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Registered"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707310090667",
+                "firingTriggerId": [
+                    "50"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "53",
+                "name": "GA4 - Pelcro Renew Subscription",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Renewed"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707310231742",
+                "firingTriggerId": [
+                    "52"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "55",
+                "name": "GA4 - Pelcro Renew Gift Subscription",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Renewed Gift"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707310366753",
+                "firingTriggerId": [
+                    "54"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "57",
+                "name": "GA4 - Pelcro Suspended Subscription",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Suspended"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707310453921",
+                "firingTriggerId": [
+                    "56"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "59",
+                "name": "GA4 - Pelcro Logged Out",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Logged out"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707310664487",
+                "firingTriggerId": [
+                    "58"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "60",
+                "name": "GA4 - Pelcro Purchase Event",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "getEcommerceDataFrom",
+                        "value": "dataLayer"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "purchase"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707320643770",
+                "firingTriggerId": [
+                    "32"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "62",
+                "name": "GA4 - Pelcro Subscribed",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Subscribed"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707310906775",
+                "firingTriggerId": [
+                    "61"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "65",
+                "name": "GA4 - Pelcro Save/Follow",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "event_label"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Event Label}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Save/Follow"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707312511311",
+                "firingTriggerId": [
+                    "64"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "tagId": "67",
+                "name": "GA4 - Pelcro Unsave/Unfollow",
+                "type": "gaawe",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "event_label"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Event Label}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "Unsave/Unfollow"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{Measurement ID}}"
+                    }
+                ],
+                "fingerprint": "1707312606693",
+                "firingTriggerId": [
+                    "66"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "18",
+                "name": "Pelcro UI event trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "\\bmodal viewed\\b"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "CONTAINS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "modal viewed"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1705949413615"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "20",
+                "name": "Pelcro UI Modal Trigger",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "\\bmodal viewed\\b"
+                            }
+                        ]
+                    }
+                ],
+                "filter": [
+                    {
+                        "type": "ENDS_WITH",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "modal viewed"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1705951857027"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "22",
+                "name": "Pelco Purchase Triggered",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1706788834668"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "32",
+                "name": "Pelcro Purchase Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707310795708"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "34",
+                "name": "Purchase Event GA4",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1706794068433"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "36",
+                "name": "Pelcro Update Address Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Updated address"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707308689798"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "38",
+                "name": "Pelcro Cancel Subscription Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Canceled"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707308980275"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "40",
+                "name": "Pelcro UnSuspend Subscription Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "UnSuspended"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707309119011"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "42",
+                "name": "Pelcro Logged In Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Logged in"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707309293027"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "44",
+                "name": "Pelcro Payment Method Created Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Created payment card"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707309444913"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "46",
+                "name": "Pelcro Delete Payment Method Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Delete payment card"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707309577937"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "48",
+                "name": "Pelcro Update Payment Method Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Updated payment card"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707309713805"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "50",
+                "name": "Pelcro Registered Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Registered"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707310088371"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "52",
+                "name": "Pelcro Renew Subscription Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Renewed"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707310228240"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "54",
+                "name": "Pelcro Renew Gift Subscription Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Renewed Gift"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707310364353"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "56",
+                "name": "Pelcro Suspended Subscription Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Suspended"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707310451553"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "58",
+                "name": "Pelcro Logged Out Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Logged out"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707310661986"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "61",
+                "name": "Pelcro Subscribed Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Subscribed"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707310898966"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "64",
+                "name": "Pelcro Save/Follow Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Save/Follow"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707312506424"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "triggerId": "66",
+                "name": "Pelcro Unsave/Unfollow Event",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "Unsave/Unfollow"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1707312602997"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "variableId": "7",
+                "name": "Measurement ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "G-BHSCL92P4P"
+                    }
+                ],
+                "fingerprint": "1705931717921",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "variableId": "63",
+                "name": "Event Label",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  // Check if the data layer variable exists and has the desired value\n  if (window.dataLayer && window.dataLayer.length > 0) {\n    // Loop through the data layer to find the desired value\n    for (var i = 0; i < window.dataLayer.length; i++) {\n      var event = window.dataLayer[i];\n      // Check if the event has the desired name\n      if (event.event && (event.event === 'Save/Follow' || event.event === \"Unsave/Unfollow\")) {\n        // Check if the event has the event_label parameter\n        if (event.event_label) {\n          // Return the value of the event_label parameter\n          return event.event_label;\n        } else {\n          // If event_label parameter is not present, return null\n          return null;\n        }\n      }\n    }\n  }\n  // If the event is not found or event_label parameter is not present, return null\n  return null;\n}\n"
+                    }
+                ],
+                "fingerprint": "1707319239621",
+                "formatValue": {}
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "6203600046",
+                "containerId": "169991442",
+                "type": "CLICK_TARGET",
+                "name": "Click Target"
+            }
+        ],
+        "fingerprint": "1707320663131",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6203600046/containers/169991442/versions/27?apiLink=version"
+    }
+}
